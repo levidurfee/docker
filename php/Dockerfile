@@ -9,4 +9,3 @@ RUN curl -sS https://getcomposer.org/installer | php \
         && ln -s /usr/local/bin/composer.phar /usr/local/bin/composer
 EXPOSE 9000
 WORKDIR /var/www/html
-RUN composer install --prefer-source --no-interaction
