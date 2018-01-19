@@ -8,7 +8,7 @@ error_reporting(0);
         <title>Network Utility</title>
     </head>
     <body>
-        <h1>Ping</h1>
+        <h1>Network Utility</h1>
         <form action="" method="post">
             <input type="text" name="host" value="" placeholder="hostname">
             <input type="text" name="port" value="" placeholder="port">
