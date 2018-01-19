@@ -24,6 +24,8 @@ error_reporting(0);
             }
             fclose($fp);
             echo "<pre>"; var_dump($_POST); echo "</pre>";
+            echo "<pre>"; var_dump($errCode); echo "</pre>";
+            echo "<pre>"; var_dump($errStr); echo "</pre>";
         }
         ?>
     </body>
